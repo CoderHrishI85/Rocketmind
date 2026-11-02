@@ -1,5 +1,20 @@
 # RocketMind 🚀
 
+[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.13-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.15%2Bcu132-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Gymnasium](https://img.shields.io/badge/Gymnasium-1.4.0-008000?style=flat-square&logo=openai&logoColor=white)](https://gymnasium.farama.org/)
+[![Stable-Baselines3](https://img.shields.io/badge/SB3-2.9.2-orange?style=flat-square)](https://github.com/DLR-RM/stable-baselines3)
+[![CUDA](https://img.shields.io/badge/CUDA-13.2%20%7C%20RTX%205060-76B900?style=flat-square&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
+[![Tests](https://img.shields.io/badge/Tests-11%2F11%20Passed-brightgreen?style=flat-square&logo=checkmarx&logoColor=white)](https://github.com/CoderHrishI85/Rocketmind)
+[![Algorithm](https://img.shields.io/badge/Algorithm-PPO%20%2B%20PBRS-blueviolet?style=flat-square)](https://arxiv.org/abs/1707.06347)
+[![Environment](https://img.shields.io/badge/Environment-LunarLander--v3-black?style=flat-square)](https://gymnasium.farama.org/environments/box2d/lunar_lander/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/CoderHrishI85/Rocketmind?style=flat-square&logo=github)](https://github.com/CoderHrishI85/Rocketmind/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/CoderHrishI85/Rocketmind?style=flat-square&logo=github)](https://github.com/CoderHrishI85/Rocketmind/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/CoderHrishI85/Rocketmind?style=flat-square&logo=github)](https://github.com/CoderHrishI85/Rocketmind/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/CoderHrishI85/Rocketmind?style=flat-square)](https://github.com/CoderHrishI85/Rocketmind/commits/main)
+[![GitHub repo size](https://img.shields.io/github/repo-size/CoderHrishI85/Rocketmind?style=flat-square)](https://github.com/CoderHrishI85/Rocketmind)
+
 What happens when you give an AI rocket an extra point for flying smoothly?  
 It figures out that **landing is a sucker's game** and learns to hover in mid-air forever.
 
