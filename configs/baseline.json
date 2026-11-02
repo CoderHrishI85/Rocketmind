@@ -1,0 +1,20 @@
+{
+  "name": "baseline",
+  "description": "Standard PPO baseline on LunarLander-v3 with default environment rewards.",
+  "algorithm": "PPO",
+  "env_id": "LunarLander-v3",
+  "wrapper_type": "none",
+  "wrapper_kwargs": {},
+  "seed": 42,
+  "total_timesteps": 300000,
+  "policy": "MlpPolicy",
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "n_steps": 2048,
+  "batch_size": 64,
+  "n_epochs": 10,
+  "device": "cpu",
+  "tb_log_name": "PPO_LunarLander",
+  "model_save_name": "ppo_lunarlander"
+}
+

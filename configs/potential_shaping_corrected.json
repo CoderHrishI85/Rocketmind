@@ -1,0 +1,23 @@
+{
+  "name": "potential_shaping_corrected",
+  "description": "Theoretically corrected PBRS without truncation penalty and with leg contact incentives.",
+  "algorithm": "PPO",
+  "env_id": "LunarLander-v3",
+  "wrapper_type": "potential_corrected",
+  "wrapper_kwargs": {
+    "gamma": 0.99,
+    "shaping_scale": 5.0
+  },
+  "seed": 42,
+  "total_timesteps": 300000,
+  "policy": "MlpPolicy",
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "n_steps": 2048,
+  "batch_size": 64,
+  "n_epochs": 10,
+  "device": "cpu",
+  "tb_log_name": "PPO_PotentialShaping_Corrected",
+  "model_save_name": "ppo_lunarlander_pbrs_corrected"
+}
+

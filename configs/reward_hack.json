@@ -1,0 +1,22 @@
+{
+  "name": "reward_hack",
+  "description": "PPO trained with deliberately flawed +1 hover bonus inducing time-limit exploitation.",
+  "algorithm": "PPO",
+  "env_id": "LunarLander-v3",
+  "wrapper_type": "hover",
+  "wrapper_kwargs": {
+    "bonus_amount": 1.0
+  },
+  "seed": 42,
+  "total_timesteps": 300000,
+  "policy": "MlpPolicy",
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "n_steps": 2048,
+  "batch_size": 64,
+  "n_epochs": 10,
+  "device": "cpu",
+  "tb_log_name": "PPO_RewardHacking",
+  "model_save_name": "ppo_lunarlander_reward_hack"
+}
+

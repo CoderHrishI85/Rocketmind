@@ -1,0 +1,48 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large generated files and temporary data
+*.tmp
+*.log
+runs/**/events.out.tfevents.*
+videos/*.mp4
+!videos/demo_*.mp4
+
+# Model weights can be tracked via release or git-lfs if needed, ignore transient checkpoints
+# Keep specific evaluation results and figures tracked:
+# !results/**/*.csv
+# !results/**/*.png
+

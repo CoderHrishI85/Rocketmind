@@ -1,0 +1,4 @@
+Agent,Episodes,Mean Return,Median Return,Std Dev,95% CI (±),Return >= 200 (%),Safe Landings (%),Time-Limit Truncations (%),Mean Hover Frames,Mean Steps
+baseline,20,140.66,198.45,114.69,50.27,50.0,50.0,5.0,319.3,496.8
+progress_shaped,20,119.9,150.79,94.83,41.56,10.0,10.0,15.0,306.2,574.6
+reward_hack,20,-35.72,-44.15,28.98,12.7,0.0,0.0,100.0,926.0,1000.0
